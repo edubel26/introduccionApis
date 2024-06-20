@@ -14,4 +14,3 @@ app.post('/login', controller.login)// login
 
 module.exports = app
 
-//// entrar a tutorias para ver el probrema

@@ -108,11 +108,11 @@ class UsuarioController {
                     "token": token
                   })
         }else{
-          res.send({"status": "Error", "message": "Datos invalidos"})
+          res.status(401).send({"status": "Error", "message": "Datos invalidos"})
         }
       }else{
         // Cuando el correo ingresado no esta registrado
-        res.send({"status": "Error", "message": " El correo ingresado no existe"})
+        res.status(401).send({"status": "Error", "message": " El correo ingresado no existe"})
       }
     }
 

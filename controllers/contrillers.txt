@@ -1,1 +1,0 @@
-en el controllers se encuentra todas las funciones de nuestro aplicativo

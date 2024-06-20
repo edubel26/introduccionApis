@@ -112,3 +112,9 @@ app.delete('/eliminar/usuario', (req, res) =>{
 app.listen(port, () =>{
     console.log("Listen on " + port)
 })
+
+
+app.use(express.urlencoded({extended: true}))// Acceder a la informacion de las urls
+app.use(express.json())// Analizar informacion en formato json
+const AutoRoutes = require('./routes/AutoRoutes')
+app.use('/carros', AutoRoutes)

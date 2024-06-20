@@ -1,1 +1,0 @@
-en los models se encuentra la estructura de los datos de nuestra aplicativo 
